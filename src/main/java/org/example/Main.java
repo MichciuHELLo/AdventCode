@@ -5,6 +5,7 @@ import org.example.y2023.answer.*;
 import org.example.y2024.answers.Day01_2024;
 import org.example.y2024.answers.Day02_2024;
 import org.example.y2024.answers.Day03_2024;
+import org.example.y2025.answers.Day01_2025;
 
 import java.io.FileNotFoundException;
 
@@ -28,11 +29,15 @@ public class Main {
     static Day02_2024 day02_2024 = new Day02_2024();
     static Day03_2024 day03_2024 = new Day03_2024();
 
+    static Day01_2025 day01_2025 = new Day01_2025();
+
     public static void main(String[] args) throws FileNotFoundException {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("\nHello to Advent code 2023 year edition!");
         System.out.println("---------------------------------------\n");
+
+//        -------------- ADVENT CODE 2023 --------------
 
 //        day1.part1();
 //        day1.part2();
@@ -64,7 +69,11 @@ public class Main {
 //        day02_2024.part1();
 //        day02_2024.part2();
 //        day03_2024.part1();
-        day03_2024.part2();
+
+//        -------------- ADVENT CODE 2025 --------------
+
+//        day01_2025.part1();
+        day01_2025.part2();
 
     }
 }

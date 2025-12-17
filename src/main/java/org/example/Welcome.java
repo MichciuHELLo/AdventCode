@@ -1,8 +1,8 @@
-package org.example.y2024;
+package org.example;
 
-public class Welcome2024 {
+public class Welcome {
 
-    public static void welcome() {
+    public static void welcome(String year) {
         System.out.println(
                 """
                         
@@ -23,8 +23,7 @@ public class Welcome2024 {
                              [___]      
                              
                              
-                        ADVENT CODE 2024
-                """
+                        ADVENT CODE - """ + " " + year
         );
     }
 

@@ -1,7 +1,7 @@
 package org.example.y2024.answers;
 
 import org.example.DaterReader;
-import org.example.y2024.Welcome2024;
+import org.example.Welcome;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -14,7 +14,7 @@ public class Day03_2024 {
     private final String inputPath = "src/main/java/org/example/y2024/data/d03/Day3_2024_input.txt";
 
     public void part1() {
-        Welcome2024.welcome();
+        Welcome.welcome("2024");
         var inputStringList = DaterReader.getInputData(inputPath);
 
         int sum = 0;
@@ -37,7 +37,7 @@ public class Day03_2024 {
     }
 
     public void part2() {
-        Welcome2024.welcome();
+        Welcome.welcome("2024");
         var inputStringList = DaterReader.getInputData(inputPath);
 
         StringBuilder stringBuilder = new StringBuilder();

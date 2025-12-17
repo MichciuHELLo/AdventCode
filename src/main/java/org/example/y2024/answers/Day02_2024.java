@@ -1,7 +1,7 @@
 package org.example.y2024.answers;
 
 import org.example.DaterReader;
-import org.example.y2024.Welcome2024;
+import org.example.Welcome;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ public class Day02_2024 {
      */
 
     public void part1() {
-        Welcome2024.welcome();
+        Welcome.welcome("2024");
         var inputStringList = DaterReader.getInputData(inputPath);
 
         int safeLines = 0;
@@ -68,7 +68,7 @@ public class Day02_2024 {
     }
 
     public void part2() {
-        Welcome2024.welcome();
+        Welcome.welcome("2024");
         var inputStringList = DaterReader.getInputData(inputPath);
 
         int safeLines = 0;

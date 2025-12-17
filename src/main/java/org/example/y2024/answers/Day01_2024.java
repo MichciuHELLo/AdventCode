@@ -1,6 +1,6 @@
 package org.example.y2024.answers;
 
-import org.example.y2024.Welcome2024;
+import org.example.Welcome;
 import org.example.DaterReader;
 
 import java.util.ArrayList;
@@ -8,11 +8,11 @@ import java.util.List;
 
 public class Day01_2024 {
 
-    final String examplePathPart1 = "src/main/java/org/example/y2024/data/d01/Day01_2024_part1_example.txt";
-    final String inputPath = "src/main/java/org/example/y2024/data/d01/Day1_2024_input.txt";
+    final String examplePathPart1 = "src/main/java/org/example/y2024/data/d01/Day01_2025_part1_example.txt";
+    final String inputPath = "src/main/java/org/example/y2024/data/d01/Day1_2025_input.txt";
 
     public void part1() {
-        Welcome2024.welcome();
+        Welcome.welcome("2024");
         var inputStringList = DaterReader.getInputData(inputPath);
 
         List<String> splitLineLeft = new ArrayList<>();
@@ -41,7 +41,7 @@ public class Day01_2024 {
     }
 
     public void part2() {
-        Welcome2024.welcome();
+        Welcome.welcome("2024");
         var inputStringList = DaterReader.getInputData(inputPath);
 
         List<String> splitLineLeft = new ArrayList<>();
