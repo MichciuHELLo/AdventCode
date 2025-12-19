@@ -8,8 +8,8 @@ import java.util.List;
 
 public class Day02_2025 {
 
-    final String examplePathPart1 = "src/main/java/org/example/y2025/data/d02/Day01_2025_example.txt";
-    final String inputPath = "src/main/java/org/example/y2025/data/d02/Day2_2025_input.txt";
+    final String examplePathPart1 = "src/main/java/org/example/y2025/data/d02/Day02_2025_example.txt";
+    final String inputPath = "src/main/java/org/example/y2025/data/d02/Day02_2025_input.txt";
 
     public void part1() {
         Welcome.welcome("2025");
