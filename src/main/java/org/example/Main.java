@@ -7,6 +7,8 @@ import org.example.y2024.answers.Day02_2024;
 import org.example.y2024.answers.Day03_2024;
 import org.example.y2025.answers.Day01_2025;
 import org.example.y2025.answers.Day02_2025;
+import org.example.y2025.answers.Day03_2025;
+import org.example.y2025.answers.Day04_2025;
 
 import java.io.FileNotFoundException;
 
@@ -32,6 +34,8 @@ public class Main {
 
     static Day01_2025 day01_2025 = new Day01_2025();
     static Day02_2025 day02_2025 = new Day02_2025();
+    static Day03_2025 day03_2025 = new Day03_2025();
+    static Day04_2025 day04_2025 = new Day04_2025();
 
     public static void main(String[] args) throws FileNotFoundException {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
@@ -77,7 +81,11 @@ public class Main {
 //        day01_2025.part1();
 //        day01_2025.part2();
 //        day02_2025.part1();
-        day02_2025.part2();
+//        day02_2025.part2();
+//        day03_2025.part1();
+//        day03_2025.part2();
+//        day04_2025.part1();
+        day04_2025.part2();
 
     }
 }
