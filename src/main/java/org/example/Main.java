@@ -5,10 +5,7 @@ import org.example.y2023.answer.*;
 import org.example.y2024.answers.Day01_2024;
 import org.example.y2024.answers.Day02_2024;
 import org.example.y2024.answers.Day03_2024;
-import org.example.y2025.answers.Day01_2025;
-import org.example.y2025.answers.Day02_2025;
-import org.example.y2025.answers.Day03_2025;
-import org.example.y2025.answers.Day04_2025;
+import org.example.y2025.answers.*;
 
 import java.io.FileNotFoundException;
 
@@ -36,6 +33,7 @@ public class Main {
     static Day02_2025 day02_2025 = new Day02_2025();
     static Day03_2025 day03_2025 = new Day03_2025();
     static Day04_2025 day04_2025 = new Day04_2025();
+    static Day05_2025 day05_2025 = new Day05_2025();
 
     public static void main(String[] args) throws FileNotFoundException {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
@@ -85,7 +83,9 @@ public class Main {
 //        day03_2025.part1();
 //        day03_2025.part2();
 //        day04_2025.part1();
-        day04_2025.part2();
+//        day04_2025.part2();
+//        day05_2025.part1();
+        day05_2025.part2();
 
     }
 }
