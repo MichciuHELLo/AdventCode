@@ -34,6 +34,7 @@ public class Main {
     static Day03_2025 day03_2025 = new Day03_2025();
     static Day04_2025 day04_2025 = new Day04_2025();
     static Day05_2025 day05_2025 = new Day05_2025();
+    static Day06_2025 day06_2025 = new Day06_2025();
 
     public static void main(String[] args) throws FileNotFoundException {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
@@ -85,7 +86,9 @@ public class Main {
 //        day04_2025.part1();
 //        day04_2025.part2();
 //        day05_2025.part1();
-        day05_2025.part2();
+//        day05_2025.part2();
+//        day06_2025.part1();
+        day06_2025.part2();
 
     }
 }
